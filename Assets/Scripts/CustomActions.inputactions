@@ -1,0 +1,82 @@
+{
+    "name": "CustomActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "b46a8c3e-db5b-48fa-bc60-e6e8cd09edd9",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "7ad7a03b-755d-4414-a57d-ab9c5c90e733",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "b9546c00-57fc-43be-9b93-220a58ecbe0a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7a6b5231-762f-4001-9d3d-bf89d2c87fd2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93a505a6-dc4e-466f-8517-5987009b1245",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "d2b42cad-cf8a-427b-bbc6-77972e9f02ad",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "f4fc857f-d831-4544-b29f-9d4dddb4eb47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec3825e6-3ca4-4123-8cda-61496d40b721",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
